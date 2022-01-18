@@ -23,10 +23,9 @@
     <img src="https://img.shields.io/github/license/AntonioNarcilio/generate-thumbnails?label=license&color=ff5555&labelColor=282a36" alt="licença"/>
   </a>
 
-  <img alt="GitHub last commit" title="GitHub last commit" src="https://img.shields.io/github/last-commit/AntonioNarcilio/generate-thumbnails?&color=50fa7b&labelColor=282a36" /> 
+  <img alt="GitHub last commit" title="GitHub last commit" src="https://img.shields.io/github/last-commit/AntonioNarcilio/generate-thumbnails?&color=50fa7b&labelColor=282a36" />
 
 </p>
-
 
 ---
 
@@ -64,28 +63,34 @@
  kdialog --version
  ~~~
 
- > 💡 Se retornar algo diferente `kdialog <numero_da_versao>` é sinal que você não tem tal dependência instalada em sua máquina se for o caso siga para o próximo passo.
- 
- Não irei me aprofundar muito nessa questão pois existe "outras formas de se instalar tal" aplicação, mais de forma bem sucinta execute no terminal um dos comandos:
- 
+> 💡 Se retornar algo diferente `kdialog <numero_da_versao>` é sinal que você não tem tal dependência instalada em sua máquina se for o caso siga para o próximo passo.
 
-  ##### Distros Debian
-  ~~~bash
-  sudo apt update
-  ~~~
-  ~~~bash
-  sudo apt install kdialog -y
-  ~~~
-  >ou simplificando
-  ~~~bash
-  sudo apt update && sudo apt install kdialog -y
-  ~~~  
-  ##### Distro Arch Linux
-  ~~~bash
-  sudo pacman -Sy kdialog
-  ~~~
+Não irei me aprofundar muito nessa questão pois existe "outras formas de se instalar tal" aplicação, mais de forma bem sucinta execute no terminal um dos comandos:
 
- > 💡 Para mais, clique no nome `kdialog` (em azul) lá no início do tópico; onde você será redirecionado para a página oficial da aplicação.
+##### Distros Debian
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install kdialog -y
+```
+
+> ou simplificando
+
+```bash
+sudo apt update && sudo apt install kdialog -y
+```
+
+##### Distro Arch Linux
+
+```bash
+sudo pacman -Sy kdialog
+```
+
+> 💡 Para mais, clique no nome `kdialog` (em azul) lá no início do tópico; onde você será redirecionado para a página oficial da aplicação.
+
 </p>
 
 ---
@@ -107,25 +112,30 @@
   
   Conforme descrito no processo de instalação do kdialog, faço a mesma citação aqui [...] Execute no terminal um dos comandos:
 
-  ##### Distros Debian
-  ~~~bash
-  sudo apt update
-  ~~~
-  ~~~bash
-  sudo apt install ffmpeg -y
-  ~~~
-  
-  > ou simplificando
+##### Distros Debian
 
-  ~~~bash
-  sudo apt update && sudo apt install ffmpeg -y
-  ~~~  
-  ##### Distro Arch Linux
-  ~~~bash
-  sudo pacman -Sy ffmpeg
-  ~~~
+```bash
+sudo apt update
+```
 
-  > 💡 Para mais, clique no nome `FFmpeg` (em azul) lá no inicio do tópico; onde você será redirecionado para a pagina oficial da aplicação.
+```bash
+sudo apt install ffmpeg -y
+```
+
+> ou simplificando
+
+```bash
+sudo apt update && sudo apt install ffmpeg -y
+```
+
+##### Distro Arch Linux
+
+```bash
+sudo pacman -Sy ffmpeg
+```
+
+> 💡 Para mais, clique no nome `FFmpeg` (em azul) lá no inicio do tópico; onde você será redirecionado para a pagina oficial da aplicação.
+
 </p>
 
 ---
@@ -139,30 +149,38 @@
 <h4><b>Como instalar ?</b></h4>
  Primeiro verifique se você possui o imagemagick instalado em sua máquina (se preferir o arquivo `install.sh` faz essa verificação para você).
 
- ~~~bash
- convert --version
- ~~~
- 
- > 💡 Se retornar algo diferente `Version: ImageMagick  <numero_da_versao> Copyright ...` é sinal que você não tem tal dependência instalada em sua máquina se for o caso siga para o próximo passo.
+```bash
+convert --version
+```
 
- Conforme descrito nos dois processos de instalação anteriormente, faço a mesma citação aqui [...] Execute no terminal um dos comandos:
+> 💡 Se retornar algo diferente `Version: ImageMagick <numero_da_versao> Copyright ...` é sinal que você não tem tal dependência instalada em sua máquina se for o caso siga para o próximo passo.
+
+Conforme descrito nos dois processos de instalação anteriormente, faço a mesma citação aqui [...] Execute no terminal um dos comandos:
 
 ##### Distros Debian
-~~~bash
+
+```bash
 sudo apt update
-~~~
-~~~bash
+```
+
+```bash
 sudo apt install imagemagick -y
-~~~
+```
+
 > ou simplificando
-~~~bash
+
+```bash
 sudo apt update && sudo apt install imagemagick -y
-~~~
+```
+
 ##### Distro Arch Linux
-~~~bash
+
+```bash
 sudo pacman -Sy imagemagick
-~~~
+```
+
 > 💡 Para mais, clique no nome `ImageMagick` (em azul) lá no início do tópico; onde você será redirecionado para a página oficial da aplicação.
+
 </p>
  
 ---
@@ -185,60 +203,66 @@ Recomendo utilizar o excelente gerenciador de arquivos <a href="https://apps.kde
  
  Por padrão os seguintes formatos são identificados ao tentar gerar uma miniatura, via linha de comando (terminal) ou pelo gerenciador de arquivo dolphin.
 
+| Extensões |     | Extensões |
+| :-------: | :-: | :-------: |
+|  `.avi`   |  -  |  `.mp4`   |
+|  `.m4v`   |  -  |  `.mov`   |
+|  `.mpg`   |  -  |  `.mpeg`  |
+|  `.wmv`   |  -  |  `.mkv`   |
+|   `.ts`   |  -  |           |
 
-  | Extensões |       | Extensões |
-  |:---------:| :---: |:---------:|
-  |  `.avi`   |   -   |  `.mp4`   |
-  |  `.m4v`   |   -   |  `.mov`   |
-  |  `.mpg`   |   -   |  `.mpeg`  |
-  |  `.wmv`   |   -   |  `.mkv`   |
-  |  `.ts`    |   -   |           |
-  
   <br>
 
 > 💡 No gerenciador de arquivo dolphin por exemplo o "atalho" no menu de contexto só aparecerá se você selecionar um vídeo que tenha uma dessa extensões especificadas acima. Leia mais em [como usar](#how-to-use)
 
 ---
 
-
 <br>
 <h2 id="install"><b>🚀 Instalação</b></h2>
 
+Primeiro você precisa clonar o ramo (`thumbnail-generator`) do repositório atual, para isso basta executar o seguinte comando:
+
+```bash
+git clone -b thumbnail-generator git@github.com:AntonioNarcilio/shell-script.git thumbnail-generator && cd thumbnail-generator
+```
+
+Após isso, você deve ter um diretório chamado `thumbnail-generator` com todos os arquivos necessários para a execução do script.<br>
 A instalação é algo bem simples, basta executar o script de instalação ( `install.sh` ) que ele fará o resto para você, mas antes se atente na configuração inicial 👇.
 
 <p align="justify"> 
   <h4><b>Configuração inicial</b></h4>
   Antes de executar o arquivo de instalação <i>install.sh</i>, você precisa da permissão para execução do mesmo. Existe duas formas de se fazer esse processo.
 
-  1. Via gerenciador de arquivo (interface gráfica):
-  Clique com o botão direito do mouse no arquivo `install.sh` selecione <kbd>propriedades</kbd> > <kbd>permissões</kbd> marque a caixa de `é executável`.<br><br>
-      <img width="38%" src="../.github/is-executable.png" alt="is-executable" />
+1.  Via gerenciador de arquivo (interface gráfica):
+    Clique com o botão direito do mouse no arquivo `install.sh` selecione <kbd>propriedades</kbd> > <kbd>permissões</kbd> marque a caixa de `é executável`.<br><br>
+    <img width="38%" src="../.github/is-executable.png" alt="is-executable" />
 
-  2. Via linha de comando (terminal):
+2.  Via linha de comando (terminal):
 
-      ~~~bash
-      chmod +x ./install.sh
-      ~~~
-</p>
+          ~~~bash
+          chmod +x ./install.sh
+          ~~~
+
+    </p>
 
  <p align="justify"> 
   <h4><b>Como usar ?</b></h4>
   Exite duas formas de se executar o script:<br>
 
-  1. Via gerenciador de arquivo (interface gráfica):
-  Dê duplo clique no arquivo `install.sh`.<br><br>
-      <img width="38%" src="../.github/run-script.png" alt="run-script" />
+1. Via gerenciador de arquivo (interface gráfica):
+   Dê duplo clique no arquivo `install.sh`.<br><br>
+   <img width="38%" src="../.github/run-script.png" alt="run-script" />
 
-  2. Via linha de comando (terminal)
-       ~~~bash
-       ./install.sh
-      ~~~
+2. Via linha de comando (terminal)
+   ```bash
+   ./install.sh
+   ```
 
-  Após executar o arquivo `install.sh` um diálogo pedindo a senha de super usuário / administrador aparecerá, passe a senha para prosseguir com o processo de instalação.<br><br>
-  <img width="38%" alt="user-password" src="../.github/user-password.png" />
+Após executar o arquivo `install.sh` um diálogo pedindo a senha de super usuário / administrador aparecerá, passe a senha para prosseguir com o processo de instalação.<br><br>
+<img width="38%" alt="user-password" src="../.github/user-password.png" />
 
-  O script irá verificar se todas as dependências estão instaladas e caso o retorno seja positivo ele continuará com o processo de instalação, se tudo ocorrer conforme o esperado um popup irá aparecer informando que a instalação foi bem sucedida.<br><br>
-  <img width="38%" src="../.github/successfully-installed.png" alt="successfully-installed" />
+O script irá verificar se todas as dependências estão instaladas e caso o retorno seja positivo ele continuará com o processo de instalação, se tudo ocorrer conforme o esperado um popup irá aparecer informando que a instalação foi bem sucedida.<br><br>
+<img width="38%" src="../.github/successfully-installed.png" alt="successfully-installed" />
 
  </p>
 
@@ -279,7 +303,7 @@ A instalação é algo bem simples, basta executar o script de instalação ( `i
   <h4><b>Para onde esses arquivos serão copiados ?</b></h4>
   Os arquivo descritos anteriormente serão copiados para os respectivos diretórios:
 
-  <kbd>usr</kbd> > <kbd>share</kbd> > <kbd>pixmaps</kbd>
+<kbd>usr</kbd> > <kbd>share</kbd> > <kbd>pixmaps</kbd>
 
 <pre>
 .
@@ -314,7 +338,6 @@ A instalação é algo bem simples, basta executar o script de instalação ( `i
 └──  <a href='../generate_thumbnails'>generate_thumbnails</a>
 </pre>
 
-
 <kbd>home</kbd> > <kbd>usuario</kbd> > <kbd>.local</kbd> > <kbd>share</kbd> > <kbd>kservices5</kbd> > <kbd>ServiceMenus</kbd>
 
 <pre>
@@ -334,25 +357,25 @@ Existe duas formas de gerar miniaturas relacionadas a um vídeo em especifico, o
 <h4><b>Através do gerenciador de arquivo dolphin</b></h4>
 
 1. Clique com o botão direito do mouse no vídeo que você deseja gerar a miniatura, no menu de contexto que abrir irá aparecer uma opção chamada `Generate thumbnails` clique nela.<br><br>
-    <img width="100%" src="../.github/dolphin-context-menu.png" alt="dolphin-context-menu" />
+   <img width="100%" src="../.github/dolphin-context-menu.png" alt="dolphin-context-menu" />
 
 2. Irá aparecer um diálogo perguntando se você deseja ou não continuar com clique em sim (yes no meu caso).<br><br>
-    <img width="38%" src="../.github/kdialog-yesno.png" alt="kdialog-yesno" />
+   <img width="38%" src="../.github/kdialog-yesno.png" alt="kdialog-yesno" />
 
 3. Logo após aparecerá um outro diálogo perguntando qual grade que o arquivo final terá, selecione uma opção. (para mais veja [resultado final ](#options))<br><br>
 
-    <img width="38%" src="../.github/../.github/options-tile.gif" alt="tile" />
-  
+<img width="38%" src="../.github/../.github/options-tile.gif" alt="tile" />
+
 4. Caso tudo ocorra conforme o esperado um popup ira aparecer informando que a miniatura foi gerada com sucesso e também o caminho onde ela foi salva ao clicar no link a imagem será aberta no visualizador de imagem padrão.<br><br>
-    <img width="38%" src="../.github/kdialog-popup.png" alt="kdialog-popup" />
+   <img width="38%" src="../.github/kdialog-popup.png" alt="kdialog-popup" />
 
 <br>
 <h4><b>Via linha de comando</b></h4>
 Caso queira gerar as miniaturas via linha de comando basta executar o comando
 
-~~~bash
+```bash
 $ generate_thumbnails "caminho/nome_do_arquivo_de_video"
-~~~
+```
 
 <img width="80%" src="../.github/command-line-generate-thumbnails.png" alt="command-line-generate-thumbnails" />
 
@@ -369,11 +392,11 @@ $ generate_thumbnails "caminho/nome_do_arquivo_de_video"
 
  <h4 id="options"><b>Opções de miniaturas</b></h4>
 
- |Grade|Arquivo final|
- |:-------:|:-------:|
- | 4x4 |![](../.github/video-example-4x4-preview.png)|
- | 5x5 |![](../.github/video-example-5x5-preview.png)|
- | 6x6 |![](../.github/video-example-6x6-preview.png)|
+| Grade |                 Arquivo final                 |
+| :---: | :-------------------------------------------: |
+|  4x4  | ![](../.github/video-example-4x4-preview.png) |
+|  5x5  | ![](../.github/video-example-5x5-preview.png) |
+|  6x6  | ![](../.github/video-example-6x6-preview.png) |
 
  </p>
 
