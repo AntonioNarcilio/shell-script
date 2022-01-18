@@ -196,6 +196,7 @@ By default, the following formats are identified when trying to generate a thumb
 
 <br>
 <h2 id="install"><b>🚀 Install</b></h2>
+
   First, you need to clone the current branch (`thumbnail-generator`) of the repository, to do this, execute the following command:
 
 ```bash
