@@ -15,9 +15,7 @@
 <tr>
 
 <td width="33%">
-
-👨‍💻 [Thumbnail Generator](https://github.com/AntonioNarcilio/shell-script/tree/thumbnail-generator)
-    
+👨‍💻 <a target="_blank" href="https://github.com/AntonioNarcilio/shell-script/tree/thumbnail-generator">Thumbnail Generator</a>
 </td>
 <td>
 This is a shell script that generates thumbnails of a video in a simple and practical way.
