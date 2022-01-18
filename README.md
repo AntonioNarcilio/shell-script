@@ -1,6 +1,35 @@
 ## My scripts
+<br>
 
-| Script Name | Description |
-| ------ | ----------- |
-|👨‍💻 [Thumbnail Generator](https://github.com/AntonioNarcilio/shell-script/tree/thumbnail-generator) | This is a shell script that generates thumbnails of a video in a simple and practical way. |
-|👨‍💻 [Thumbnail Generator](https://github.com/AntonioNarcilio/shell-script/tree/thumbnail-generator) | This is a shell script that generates thumbnails of a video in a simple and practical way. |
+<table>
+
+<tr>
+<th>
+<b>Script Name</b>
+</th>    
+<th>
+<b>Description</b>
+</th>
+</tr> 
+
+<tr>
+
+<td width="33%">
+
+👨‍💻 [Thumbnail Generator](https://github.com/AntonioNarcilio/shell-script/tree/thumbnail-generator)
+    
+</td>
+<td>
+This is a shell script that generates thumbnails of a video in a simple and practical way.
+</td>
+</tr>
+
+<td>
+
+👨‍💻 [Vivaldi Buttons MacOS](https://github.com/AntonioNarcilio/shell-script/tree/vivaldi-window-buttons-mod)
+    
+</td>
+<td> This is a shell script where when running it adds a new styling to the Vivaldi browser window buttons, leaving them similar to macOS.
+</td>
+</tr>
+</table>
